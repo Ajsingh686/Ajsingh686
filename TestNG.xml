@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Pixel Tracking "> 
+
+	<listeners>
+        <listener class-name="pixeltrack.RetryListener" />
+	</listeners>
+
+	<test name="Tracking Pixel for Econnex">
+		<classes>
+			<class name="pixeltrack.PixelTrack" />
+		</classes>
+	 </test> <!-- Test -->
+</suite> <!-- Suite -->
